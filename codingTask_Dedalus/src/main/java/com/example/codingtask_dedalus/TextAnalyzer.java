@@ -59,6 +59,7 @@ public class TextAnalyzer {
               && chars[i] != 'O'
               && chars[i] != 'u'
               && chars[i] != 'U'
+              && chars[i] != ' '
       ) {
         String stringCharacter = String.valueOf(chars[i]).toUpperCase();
         if (consonants.containsKey(stringCharacter)) {
